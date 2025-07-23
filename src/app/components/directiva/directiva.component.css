@@ -1,0 +1,14 @@
+.div1 {
+  border-top: 10px solid pink;
+  border-bottom: 5px solid violet;
+  height: 120px;
+  width: 70%;
+  background-color: #a9e2f3;
+}
+.div2 {
+  border: 10px solid rgb(211, 116, 179);
+  height: 100px;
+  width: 70%;
+  background-color: #2b8aa1;
+  text-align: center;
+}

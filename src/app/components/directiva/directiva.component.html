@@ -1,0 +1,41 @@
+
+<div class="container center">
+<h1>{{ title }}</h1>
+<br />
+<div
+  class="container"
+  [ngStyle]="{ 'color': color, 'font-weight': 'bold', 'font-size': '150%' }"
+>
+ PRUEBA
+</div>
+
+<br />
+
+<!-- Checkboxes para activar estilos -->
+<div class="container div1">
+  <input
+    type="checkbox"
+    name="hayLetraGrande"
+    [(ngModel)]="hayLetraGrande"
+  />Tamaño<br />
+
+  <input
+    type="checkbox"
+    name="hayColorFondo"
+    [(ngModel)]="hayColorFondo"
+  />Fondo<br />
+
+  <input
+    type="checkbox"
+    name="hayLetraColor"
+    [(ngModel)]="hayLetraColor"
+  />Color<br />
+  <input
+    type="checkbox"
+    name="hayLetraItalica"
+    [(ngModel)]="hayLetraItalica"
+  />Itálica<br />
+</div>
+
+<div class="container div2" [ngStyle]="defineEstilos()">Texto</div>
+</div>

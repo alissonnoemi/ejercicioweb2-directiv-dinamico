@@ -1,0 +1,5 @@
+[
+    {"id": 1,"nombre": "Tanjiro", "edad":16, "carrera":"Mizunoto"},
+    {"id": 2,"nombre": "Zenitsu", "edad": 16, "carrera":"Mizunoto"},
+    {"id": 3,"nombre": "Inosuke", "edad": 16, "carrera":"Estetica"}
+]

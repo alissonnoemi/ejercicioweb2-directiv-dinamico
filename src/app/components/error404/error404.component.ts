@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
+
 @Component({
-  selector: 'app-nav-bar',
+  selector: 'app-error404',
   standalone: true,
   imports: [RouterLink],
-  templateUrl: './nav-bar.component.html',
-  styleUrl: './nav-bar.component.css'
+  templateUrl: './error404.component.html',
+  styleUrl: './error404.component.css'
 })
-export class NavBarComponent {
+export class Error404Component {
 
 }

@@ -15,7 +15,7 @@ export class UsuariosComponent {
   constructor(private http: HttpClient){
   }
   
-  usuarios: Usuario[] = [];
+  usuarios: Usuario[] = []; 
 
   ngOnInit(): void {
     this.http.get<Usuario[]>('assets/usuarios.json').subscribe((data) => {

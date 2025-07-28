@@ -1,0 +1,11 @@
+@if(usuario){
+    <div>
+        <h2>Detalle Usuario</h2>
+        <p>Nombre: {{ usuario.nombre }}</p>
+        <p>Edad: {{ usuario.edad }}</p>
+        <p>Carrera: {{ usuario.carrera }}</p>
+        <p>Dirección: {{ usuario.direccion }}</p>
+        <p>Hobbies: {{usuario.Hobbies}}</p>
+        <button (click)="mostrar_mensaje(usuario)">Detalle</button>
+    </div>
+}

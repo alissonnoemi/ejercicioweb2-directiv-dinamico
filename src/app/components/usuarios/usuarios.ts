@@ -3,5 +3,7 @@ export interface Usuario {
   nombre: string;
   edad: number;
   carrera: string;
+  Hobbies: string;
+  direccion: string;
 }
 

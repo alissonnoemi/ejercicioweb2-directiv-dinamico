@@ -1,5 +1,5 @@
 [
-    {"id": 1,"nombre": "Tanjiro", "edad":16, "carrera":"Mizunoto"},
-    {"id": 2,"nombre": "Zenitsu", "edad": 16, "carrera":"Mizunoto"},
-    {"id": 3,"nombre": "Inosuke", "edad": 16, "carrera":"Estetica"}
+    {"id": 1,"nombre": "Tanjiro","direccion": "Quito", "Hobbies": "Cazar demonios", "edad":16, "carrera":"Mizunoto"},
+    {"id": 2,"nombre": "Zenitsu", "direccion": "Quito", "Hobbies": "Dormir", "edad": 18, "carrera":"Mizunoto"},
+    {"id": 3,"nombre": "Inosuke", "direccion": "Quito", "Hobbies": "Luchar", "edad": 20, "carrera":"Estetica"}
 ]

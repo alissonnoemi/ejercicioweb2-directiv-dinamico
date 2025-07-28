@@ -17,12 +17,12 @@ export class DirectivaComponent {
   hayLetraColor = false;
   hayLetraItalica = false;
 
-  color = 'red';
+  color = 'pink';
 
   defineEstilos() {
     return {
       'font-size': this.hayLetraGrande ? '24px' : '14px',
-      'background-color': this.hayColorFondo ? '#d3d3d3' : '',
+      'background-color': this.hayColorFondo ? '#e073c0a2' : '',
       'color': this.hayLetraColor ? 'blue' : 'black',
       'font-style': this.hayLetraItalica ? 'italic' : 'normal'
     };
